@@ -1,0 +1,28 @@
+.paymentInfo input {
+    width: 512px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+  border-radius: 8px;
+  }
+
+.paymentInfo select {
+    background-image: url('/image/creditCardIcon.png');
+    background-size: 26px 20px ;
+    background-position: 5px 13px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px;
+    width: 512px;
+}  
+
+#coupon {
+    border: none;
+    border-bottom: 1px solid black;
+  }
+
+.line {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 512px;
+}

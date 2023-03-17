@@ -18,6 +18,7 @@
             }
         }
     </style>
+    <link rel="stylesheet" href="/Styling/confirmAndPay.css">
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -26,6 +27,48 @@
 
 </head>
 <body>
+
+    <section class="paymentInfo">
+        <h1><  Confirm and pay</h1>
+        <br>
+        <br>
+        <h2>Pay with</h2>
+        <form action="">
+            <select id="country" name="country"> 
+                <option value="australia">Country/Region</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                <option value="mexico">Mexico</option>
+            </select> <br>
+            <input type="text" id="cardNumber" name="cardNumber" placeholder="Card number"> <br>
+            <input type="text" id="expiration" name="expiration" placeholder="Expiration"> <br>
+            <input type="text" id="cvv" name="cvv" placeholder="CVV"> <br>
+            <input type="text" id="zipCode" name="zipCode" placeholder="ZIP code"> <br>
+            <select id="country" name="country"> 
+              <option value="australia">Country/Region</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+              <option value="mexico">Mexico</option>
+            </select> <br>
+            <br>
+            <label for="coupon">Enter a coupon</label> <br>
+            <input id="coupon" name="coupon" placeholder=""> <br>
+            <br>
+            <h2>Required for your locker reservation</h2> <br>
+            <br>
+            <label for="phoneNumber">Add and confirm your phone number to get reservation updates</label> <br>
+            <input id="phoneNumber" name="phoneNumber" placeholder="Phone Number"> <br>
+            <br>
+            <div class="line"></div>
+            <br>
+            <h2>Cancellation policy</h2> <br>
+            <p>This reservation is non-refundable. Learn more</p> <br>
+            <button>Confirm and pay</button>
+        </form>
+
+    </section>
+
+
 
     <div class="container-fluid" style="height:100vh">
         <nav class="bg-primaryX text-lightX navbar navbar-expand-xl navbar-dark  navbar-togglable  fixed-top">
